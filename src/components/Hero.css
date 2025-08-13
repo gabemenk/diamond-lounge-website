@@ -1,0 +1,29 @@
+.hero {
+    height: 80vh; /* Takes most of the screen height */
+    background-image: url("https://via.placeholder.com/1920x1080"); /* Replace with real image later */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .hero-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .hero-title {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero-subtitle {
+    color: white;
+    font-size: 1.5rem;
+  }
+  

@@ -1,13 +1,64 @@
-body {
+/* index.css */
+
+/* Reset and box-sizing */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+
+  /* Add padding-top to avoid content hidden behind fixed header */
+  padding-top: 70px; /* Adjust based on header height */
+}
+
+
+/* Main and footer keep padding and max-width */
+main, footer {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Other styles unchanged */
+
+nav {
+  background-color: #222;
+  padding: 1rem 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  color: white;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff6f61; /* a warm accent color */
+}
+
+/* Menu item card styling */
+.menu-item {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.menu-item:hover {
+  transform: scale(1.02);
+}
+
+.menu-item h3 {
+  margin-bottom: 0.3rem;
+  color: #ff6f61; /* Accent color */
 }
