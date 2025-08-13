@@ -15,7 +15,6 @@
 
 .App-header {
   background-color: #282c34;
-  /* Removed min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,14 +46,13 @@ body, html {
 
 /* Body styles */
 body {
-  /* padding-top matches header height (adjust if you change header padding) */
+  /* padding-top matches header height (adjust to change header padding) */
   padding-top: 70px;
   font-family: Arial, sans-serif;
   background-color: #fafafa;
   color: #333;
 }
 
-/* Fixed header at top */
 header {
   position: fixed;
   top: 0;
@@ -70,24 +68,6 @@ header {
   align-items: center;
   z-index: 1000;
   box-sizing: border-box;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 1.8rem;
-  line-height: 70px; /* vertically center text */
-}
-
-header nav a {
-  color: #ecf0f1;
-  margin-left: 1rem;
-  text-decoration: none;
-  font-weight: 500;
-  cursor: pointer;
-}
-
-header nav a:hover {
-  text-decoration: underline;
 }
 
 /* Content sections */

@@ -5,7 +5,7 @@ import '../Header.css';
 export default function Header() {
   return (
     <header>
-      <h1>Diamind Lounge</h1>
+      <h1>Diamond Lounge</h1>
       <nav>
         <Link to="/">Home</Link>
         <Link to="/menu">Menu</Link>

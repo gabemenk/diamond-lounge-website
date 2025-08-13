@@ -1,3 +1,7 @@
+/*
+  Put menu item's data here
+  Currently sample data
+*/
 const menuItems = [
     {
       id: 1,

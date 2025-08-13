@@ -7,7 +7,7 @@ header {
 
   margin: 0;
   padding: 1rem 2rem;
-  background: linear-gradient(90deg, #222, #4c7088); /* Subtle gradient */
+  background: linear-gradient(90deg, #222, #4c7088); /* Header gradient */
   color: white;
 
   display: flex;
@@ -16,7 +16,7 @@ header {
   box-sizing: border-box;
 
   border-top: 1px solid transparent;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4); /* Shadow for depth */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4); /* Shadow */
 }
 
 header h1 {

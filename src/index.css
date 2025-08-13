@@ -12,8 +12,6 @@ body {
   background: #f9f9f9;
   color: #333;
   line-height: 1.6;
-
-  /* Add padding-top to avoid content hidden behind fixed header */
   padding-top: 70px; /* Adjust based on header height */
 }
 
@@ -24,8 +22,6 @@ main, footer {
   margin: 0 auto;
   padding: 1rem;
 }
-
-/* Other styles unchanged */
 
 nav {
   background-color: #222;
@@ -41,7 +37,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #ff6f61; /* a warm accent color */
+  color: #ff6f61; /* hover accent */
 }
 
 /* Menu item card styling */
