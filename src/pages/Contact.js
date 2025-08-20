@@ -19,10 +19,11 @@ export default function Contact() {
 
         <div style={{ flex: "1 1 300px", minWidth: "280px" }}>
           <h2>Diamond Lounge Info</h2>
-          <p><strong>Phone:</strong> (###) ###-####</p>
+          <p><strong>Phone:</strong> (929) 900-1932</p>
           <p><strong>Email:</strong> email@email.com</p>
-          <p><strong>Address:</strong> 1923 McDonaldd Ave 2nd Floor, Brooklyn, NY 11223</p>
-          <p><strong>Hours:</strong> Mon–Fri: 9am – 9pm, Sat–Sun: 10am – 6pm</p>
+          <p><strong>Address:</strong> 1923 McDonald Ave 2nd Floor, Brooklyn, NY 11223</p>
+          <p><strong>Hours:</strong> TODO Mon–Fri: 9am – 9pm, Sat–Sun: 10am – 6pm</p>
+          <p><strong>put social media here?</strong></p>
         </div>
       </div>
     </div>

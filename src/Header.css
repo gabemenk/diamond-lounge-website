@@ -7,7 +7,7 @@ header {
 
   margin: 0;
   padding: 1rem 2rem;
-  background: linear-gradient(90deg, #222, #4c7088); /* Header gradient */
+  background: linear-gradient(90deg, #222, #2998B7); /* Header gradient */
   color: white;
 
   display: flex;
