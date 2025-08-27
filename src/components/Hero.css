@@ -1,8 +1,5 @@
 .hero {
-    height: 80vh; /* Takes most of the screen height */
-    background-image: url("https://via.placeholder.com/1920x1080"); /* Replace with real image later */
-    background-size: cover;
-    background-position: center;
+    height: 40vh; /* Takes most of the screen height */
     display: flex;
     align-items: center;
     justify-content: center;
